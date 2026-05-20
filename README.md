@@ -55,7 +55,7 @@ PLEASE place them in the `data/raw` folder BEFORE running the code!
 
 ## Sample visual results
 Raw alphs t-statistics of Information coefficients ranking
-![icrank](results/figures/alpha_ic_tstats_ranking.png)
+![icrank](results/figures/alphas_ic_tstats_ranking.png)
 
 Super-alphas vs raw alphas (t-statistics of Information coefficients)
 ![ictstat](results/figures/t-stat_comparison_alphas_vs_superalphas.png)
