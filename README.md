@@ -30,6 +30,12 @@ This project presents the development and evaluation of quantitative trading str
 # Project Structure
 ```
 ├── src/              # Core logic (strategies, metrics, etc.)
+  ├── data/           # Data loading and data cleanness
+  ├── metrics/        # All the metrics used in evalutating alphas, superalphas and portfolios
+  ├── portfolios/     # Building portfolios based on alpha results
+  ├── raw_alphas/     # Implementation of alphas, classfied by their economic intuitions (mean-reversion, momentum, Market-microstructure, volatility, volume-price)
+  ├── super_alphas/   # Methods to combine raw alphas
+  ├── visualizations/ # All visualization tools
 ├── data/             # Data, as csv file
 ├── notebooks/        # Bug-free version jupyter notebook
 ├── results/          # Output plots / reports
@@ -43,39 +49,9 @@ pip install -r requirements.txt
 ```
 ## Data
 The pricing datasets using here come from the website cryptodatadownload.com/, a free and open-source platform for accessing historical cryptocurrency market data. Specifically, we select Binance as the trading venue and utilize daily OHLCV (Open, High, Low, Close, Volume) data for a broad universe of cryptocurrencies (43 coins), containing different types of coins like Layer 1, DeFi tokens and Exchange tokens, to ensure diversity.
+
 PLEASE place them in the `data/raw` folder BEFORE running the code!
 
-## Usage
-
-### Run full pipeline
-
-```bash
-python main.py
-```
-
-Runs the entire workflow: data processing → alpha selection → alpha combination → portfolio-level evaluations
-
----
-
-### Run individual components
-
-#### Data analysis (cleaning, clustering, factor analysis)
-
-```bash
-python scripts/run_analysis.py
-```
-
-#### Backtesting strategies
-
-```bash
-python scripts/run_backtests.py
-```
-
-#### Performance evaluation
-
-```bash
-python scripts/run_evaluation.py
-```
 
 ## Sample visual results
 tbd
