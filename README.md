@@ -54,9 +54,12 @@ PLEASE place them in the `data/raw` folder BEFORE running the code!
 
 
 ## Sample visual results
-tbd
+Alpha-level evaluation (t-statistics of Information coefficients)
+![IC](results/figures/t-stat_comparison_alphas_vs_superalphas.png)
 
 
+Portfolio-level evaluation (cumulative pnl & maximum drawdown)
+![portfolio](results/figures/cumulative_pnl_longshort_with_cost.png)
 
 
 ## Conclusions
