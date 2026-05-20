@@ -90,7 +90,7 @@ From a risk perspective, the strategies demonstrate improved drawdown characteri
 
 
 ## Complete notebook files and results
-- `notebook/Stock_price_project.ipynb` — cleaned notebook ready for GitHub.
-- `results/Stock_price_project_results.pdf` — full PDF report with figures and results.
+- `notebooks/101_alphas_in_crypto.ipynb` — cleaned notebook ready for GitHub.
+- `results/Report.pdf` — full PDF report with figures and results.
 
 
