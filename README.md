@@ -55,7 +55,7 @@ PLEASE place them in the `data/raw` folder BEFORE running the code!
 
 ## Sample visual results
 Alpha-level evaluation (t-statistics of Information coefficients)
-![ictstat](results/figurescypto_coin_lifecycles.png)
+![ictstat](results/figures/cypto_coin_lifecycles.png)
 
 
 Portfolio-level evaluation (cumulative pnl & maximum drawdown)
